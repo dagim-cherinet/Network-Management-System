@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title class="register">Registration Page</title>
+  </head>
+  <body>
+    <a href="./admin-page.html"><button>back </button></a>
+
+    <h1>Registration Page</h1>
+    <form class="reg__form" id="reg__form">
+      <input
+        autocomplete="off"
+        type="text"
+        name="username"
+        id="username"
+        class="username"
+        placeholder="username"
+      />
+      <input
+        autocomplete="off"
+        type="password"
+        name="password"
+        id="password"
+        class="password"
+        placeholder="passwork"
+      />
+      <input
+      autocomplete="off"
+      type="text"
+      name="jobtype"
+      id="jobtype"
+      class="jobtype"
+      placeholder="jobtype"
+    />
+    <input
+      autocomplete="off"
+      type="text"
+      name="buildingname"
+      id="buildingname"
+      class="buildingname"
+      placeholder="building name"
+    />
+    <input
+      autocomplete="off"
+      type="number"
+      name="buildingnumber"
+      id="buildingnumber"
+      class="buildingnumber"
+      placeholder="buildingnumber"
+    />
+    <input
+      autocomplete="off"
+      type="number"
+      name="officenumber"
+      id="officenumber"
+      class="officenumber"
+      placeholder="office number"
+    />
+    <input
+      autocomplete="off"
+      type="number"
+      name="phonenumber"
+      id="phonenumber"
+      class="phonenumber"
+      placeholder="phone number"
+    />
+      <button type="submit">register</button>
+    </form>
+    <button id="btn">get/list all users</button>
+    <div class="user__container"></div>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- javaScript file -->
+    <script src="./js/registration.js"></script>
+  </body>
+</html>
